@@ -1,0 +1,8 @@
+<div class="col-6 offset-3 content">
+  <div class="form-group">
+      <label for="inputText">Input Text</label>
+      <input type="text" #inputText [(ngModel)]="currentText" (ngModelChange)="setText($event)" class="form-control" id="inputText" aria-describedby="inputText">
+      <label for="widthRange">Output Div Width: {{currentWidth}} px</label>
+      <input type="range" #widthSelector [(ngModel)]="currentWidth" (ngModelChange)="setWidth($event)" class="form-control-range" id="widthRange" min="1" max="1920">
+  </div>
+</div>

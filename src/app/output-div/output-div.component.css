@@ -1,0 +1,12 @@
+.content {
+  height: 50px;
+  border: 1px black solid;
+  margin: 0 auto;
+  font-family: "Arial";
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
